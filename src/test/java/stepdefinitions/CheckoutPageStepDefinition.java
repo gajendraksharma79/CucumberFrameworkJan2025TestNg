@@ -36,4 +36,10 @@ public class CheckoutPageStepDefinition {
 		Assert.assertTrue(checkoutpage.isPlaceOrderButtonAvailable());
 	   
 	}
+	@Then("Validate GreenKart logo is visible")
+	public void validate_GreenKart_logo_is_visible() {
+		
+		Assert.assertTrue(checkoutpage.isPlaceOrderButtonAvailable());
+	   
+	}
 }

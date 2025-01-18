@@ -10,3 +10,4 @@ And Proceeds to checkout page
 Then user verifies same product displays on checkout page
 And Validate Apply button is visible
 And Validate Place Order button is visible
+And Validate GreenKart logo is visible
