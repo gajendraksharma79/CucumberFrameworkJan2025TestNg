@@ -16,7 +16,7 @@ public class LandingPage {
 	private By addToCartBtn = By.xpath("//button[@type='button' and text()='ADD TO CART']");
 	private By cartIcon = By.cssSelector(".cart-icon");
 	private By proceedToCheckOutBtn = By.xpath("//button[@type='button' and text()='PROCEED TO CHECKOUT']");
-	
+	private By test = By.id("test");
 
 	public void searchItem(String shortProdName) {
 		driver.findElement(searchBox).sendKeys(shortProdName);

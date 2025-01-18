@@ -14,6 +14,8 @@ public class CheckoutPage {
 	private By productName = By.cssSelector(".product-name");
 	private By applyBtn = By.cssSelector(".promoBtn");
 	private By placeOrderBtn = By.xpath("//button[text()='Place Order']");
+	private By greenKartLogo = By.cssSelector(".brand.greenLogo");
+	private By test = By.id("test");
 	
 	public String getSearchedProductName() {
 		return driver.findElement(productName).getText().trim();
@@ -27,6 +29,9 @@ public class CheckoutPage {
 		return driver.findElement(placeOrderBtn).isDisplayed();
 	}
 	
+	public boolean isGreenKartLogoAvailable() {
+		return driver.findElement(greenKartLogo).isDisplayed();
+	}
 	
 	
 	
