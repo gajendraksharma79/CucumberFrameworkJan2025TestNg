@@ -28,6 +28,8 @@ public class GenericUtils {
 				}
 			}
 		}
-	
+	public void test() {
+		
+	}
 
 }

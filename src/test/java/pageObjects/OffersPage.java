@@ -19,5 +19,8 @@ public class OffersPage {
 	public String getSearchedProductName() {
 		return driver.findElement(productName).getText().trim();
 	}
+	public void test() {
+		
+	}
 	
 }
